@@ -1,0 +1,22 @@
+{
+  "name": "interractive_card",
+  "version": "1.0.0",
+  "description": "An Interractive card for users",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubongjosevv/interractive_card.git"
+  },
+  "author": "Ubong Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubongjosevv/interractive_card/issues"
+  },
+  "homepage": "https://github.com/ubongjosevv/interractive_card#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
