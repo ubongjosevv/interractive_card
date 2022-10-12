@@ -39,6 +39,7 @@
             position: absolute;
             z-index: 1;
             margin: 1.5rem 1.5rem;
+            box-shadow: none;
           }
 
           div {
@@ -63,6 +64,7 @@
                 border: none;
                 color: $White;
                 font-size: 13px;
+                text-transform: uppercase;
 
                 &:last-child {
                   margin-left: 380px;
@@ -75,6 +77,21 @@
 
       &-b {
         margin: 1rem 5rem;
+
+        div {
+          input {
+            display: flex;
+            justify-content:space-around ;
+            position: absolute;
+            z-index: 1;
+            margin: 112px 360px;
+            background: none;
+            border: none;
+            color: $White;
+            font-size: 13px;
+            text-transform: uppercase;
+          }
+        }
       }
     }
   }

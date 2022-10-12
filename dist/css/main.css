@@ -23,7 +23,8 @@
       .container #images .img-a div img {
         position: absolute;
         z-index: 1;
-        margin: 1.5rem 1.5rem; }
+        margin: 1.5rem 1.5rem;
+        box-shadow: none; }
       .container #images .img-a div div #con {
         position: absolute;
         z-index: 1;
@@ -41,11 +42,23 @@
         background: none;
         border: none;
         color: white;
-        font-size: 13px; }
+        font-size: 13px;
+        text-transform: uppercase; }
         .container #images .img-a div div div input:last-child {
           margin-left: 380px; }
     .container #images .img-b {
       margin: 1rem 5rem; }
+      .container #images .img-b div input {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        z-index: 1;
+        margin: 112px 360px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 13px;
+        text-transform: uppercase; }
   .container .card-form {
     display: flex;
     justify-content: center;
