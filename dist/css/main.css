@@ -13,13 +13,37 @@
     flex-direction: column;
     position: absolute;
     z-index: 1;
-    margin: 150px 150px; }
+    margin: 150px 100px; }
     .container #images img {
       box-shadow: #21092f 0.01rem 0.01rem 0.4rem 0.01rem;
       border-radius: 1rem; }
     .container #images .img-a {
       margin-right: 7rem;
       margin-bottom: 1rem; }
+      .container #images .img-a div img {
+        position: absolute;
+        z-index: 1;
+        margin: 1.5rem 1.5rem; }
+      .container #images .img-a div div #con {
+        position: absolute;
+        z-index: 1;
+        margin: 150px 30px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px; }
+      .container #images .img-a div div div input {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        z-index: 1;
+        margin: 200px 30px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 13px; }
+        .container #images .img-a div div div input:last-child {
+          margin-left: 380px; }
     .container #images .img-b {
       margin: 1rem 5rem; }
   .container .card-form {
@@ -51,7 +75,8 @@
           .container .card-form .content #form-details .date-cvc-component .date {
             width: 25%; }
             .container .card-form .content #form-details .date-cvc-component .date input {
-              padding: .4rem;
+              padding: .4rem .4rem;
+              margin-left: .3rem;
               border-radius: .3rem;
               box-shadow: #600594 0.01rem 0.01rem 0.2rem 0.01rem;
               width: 20%; }
@@ -71,3 +96,5 @@
         width: 95%;
         margin: auto;
         padding: .5rem; }
+        .container .card-form .content #btn:hover {
+          opacity: 0.9; }

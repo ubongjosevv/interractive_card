@@ -22,7 +22,7 @@
     flex-direction: column;
     position: absolute;
     z-index: 1;
-    margin: 150px 150px;
+    margin: 150px 100px;
 
     img {
       box-shadow: $Very-dark-violet .01rem .01rem .4rem .01rem;
@@ -33,6 +33,44 @@
       &-a {
         margin-right: 7rem;
         margin-bottom: 1rem;
+
+        div {
+          img {
+            position: absolute;
+            z-index: 1;
+            margin: 1.5rem 1.5rem;
+          }
+
+          div {
+            #con {
+              position: absolute;
+              z-index: 1;
+              margin: 150px 30px;
+              background: none;
+              border: none;
+              color: $White;
+              font-size: 24px;
+            }
+
+            div {
+              input {
+                display: flex;
+                justify-content:space-around ;
+                position: absolute;
+                z-index: 1;
+                margin: 200px 30px;
+                background: none;
+                border: none;
+                color: $White;
+                font-size: 13px;
+
+                &:last-child {
+                  margin-left: 380px;
+                }
+              }
+            }
+          }
+        }
       }
 
       &-b {
@@ -84,7 +122,8 @@
         .date {
           width: 25%;
           input {
-            padding: .4rem;
+            padding: .4rem .4rem;
+            margin-left: .3rem;
             border-radius: .3rem;
             box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
             width: 20%;
@@ -114,6 +153,10 @@
       width: 95%;
       margin: auto;
       padding: .5rem;
+
+      &:hover {
+        opacity: 0.9;
+      }
     }
    }
   }
