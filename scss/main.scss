@@ -8,6 +8,7 @@
 
 .container {
   font-size: $Font-size;
+  font-family: $Font-family;
 
   .sections {
     display: flex;
@@ -43,7 +44,7 @@
           }
 
           div {
-            #con {
+            h2 {
               position: absolute;
               z-index: 1;
               margin: 150px 30px;
@@ -54,9 +55,9 @@
             }
 
             div {
-              input {
+              p {
                 display: flex;
-                justify-content:space-around ;
+                justify-content:space-around;
                 position: absolute;
                 z-index: 1;
                 margin: 200px 30px;
@@ -65,6 +66,7 @@
                 color: $White;
                 font-size: 13px;
                 text-transform: uppercase;
+                color: $Light-grayish-violet;
 
                 &:last-child {
                   margin-left: 380px;
@@ -79,7 +81,7 @@
         margin: 1rem 5rem;
 
         div {
-          input {
+          p {
             display: flex;
             justify-content:space-around ;
             position: absolute;
@@ -90,6 +92,7 @@
             color: $White;
             font-size: 13px;
             text-transform: uppercase;
+            color: $Light-grayish-violet;
           }
         }
       }

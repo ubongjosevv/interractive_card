@@ -3,7 +3,8 @@
   padding: 0; }
 
 .container {
-  font-size: 10px; }
+  font-size: 11px;
+  font-family: "Space Grotesk", sans-serif; }
   .container .sections {
     display: flex;
     height: 100vh;
@@ -25,7 +26,7 @@
         z-index: 1;
         margin: 1.5rem 1.5rem;
         box-shadow: none; }
-      .container #images .img-a div div #con {
+      .container #images .img-a div div h2 {
         position: absolute;
         z-index: 1;
         margin: 150px 30px;
@@ -33,7 +34,7 @@
         border: none;
         color: white;
         font-size: 24px; }
-      .container #images .img-a div div div input {
+      .container #images .img-a div div div p {
         display: flex;
         justify-content: space-around;
         position: absolute;
@@ -43,12 +44,13 @@
         border: none;
         color: white;
         font-size: 13px;
-        text-transform: uppercase; }
-        .container #images .img-a div div div input:last-child {
+        text-transform: uppercase;
+        color: #dedddf; }
+        .container #images .img-a div div div p:last-child {
           margin-left: 380px; }
     .container #images .img-b {
       margin: 1rem 5rem; }
-      .container #images .img-b div input {
+      .container #images .img-b div p {
         display: flex;
         justify-content: space-around;
         position: absolute;
@@ -58,7 +60,8 @@
         border: none;
         color: white;
         font-size: 13px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        color: #dedddf; }
   .container .card-form {
     display: flex;
     justify-content: center;
