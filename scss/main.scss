@@ -7,9 +7,11 @@
 }
 
 .container {
+  font-size: $Font-size;
+
   .sections {
     display: flex;
-    width: 100%;
+    // width: 80%;
     height: 100vh;
     // position: absolute;
     z-index: -1;
@@ -39,31 +41,81 @@
     }
   }
 
+  // Form 
   .card-form {
     display: flex;
+    // width: 20%;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-
-    input {
-      padding: .4rem;
-      margin: .3rem;
-      border-radius: .4rem;
-      box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
-    }
+    text-transform: uppercase;
+  
+   .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: 100%;
+    // border: 1px solid blue;
+    height: 50vh;
 
     #form-details {
-      text-transform: uppercase;
       display: flex;
       flex-direction: column;
+      width: 90%;
+      // padding-bottom: 1rem;
+      
 
       #component {
         display: flex;
         flex-direction: column;
+        padding: .8rem;
+
+        input {
+          padding: .4rem;
+          border-radius: .3rem;
+          box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
+        }
       }
 
       .date-cvc-component {
         display: flex;
+        padding: .8rem;
+
+        .date {
+          width: 25%;
+          input {
+            padding: .4rem;
+            border-radius: .3rem;
+            box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
+            width: 20%;
+          }
+        }
+
+        .cvc {
+          width: 71%;
+          input {
+            padding: .4rem;
+            border-radius: .3rem;
+            box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
+            width: 100%;
+          }
+        }
       }
+
     }
+
+    // Button
+    #btn {
+      padding: .4rem;
+      border-radius: .3rem;
+      box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
+      color: $White;
+      background: $Very-dark-violet;
+      width: 95%;
+      margin: auto;
+      padding: .5rem;
+    }
+   }
   }
 }
 
