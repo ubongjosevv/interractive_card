@@ -5,12 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/adf6e246bc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
   <title>Interractive Card</title>
 </head>
 <body>
   <div class="container">
     <div class="sections">
-      .
+      <img src="img/bg-main-desktop.png" class="bg-desktop" alt="">
+      <div class="card-form">
+        <form id="form-details">
+          <div>
+            <label for="Name">Cardholder Name</label>
+            <input type="text" id="name" placeholder="Felicia Leire">
+          </div>
+          <div>
+            <label for="Number">Card Number</label>
+            <input type="text" id="number" placeholder="9591 6489 6389 101E">
+          </div>
+          <div>
+            <label for="Date">Exp. Date (MM/YY)</label>
+            <div class="date">
+              <input type="text" id="month">
+              <input type="text" id="year">
+              <div class="cvc">
+                <label for="Cvc">Cvc</label>
+                <input type="text" id="cvc">
+              </div>
+            </div>
+          </div>
+          <input type="submit" value="Confirm">
+        </form>
+      </div>
+      <div id="images">
+        <div class="img-a">
+          <img src="img/bg-card-front.png" alt="" id="image-1">
+        </div>
+        <div class="img-b">
+          <img src="img/bg-card-back.png" alt="" id="image-1">
+        </div>
+      </div>
     </div>
   </div>
 </body>

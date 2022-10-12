@@ -1,0 +1,51 @@
+@import 'utility';
+@import 'config';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  .sections {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    // position: absolute;
+    z-index: -1;
+  }
+
+  #images {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    margin: 150px 150px;
+
+    img {
+      box-shadow: $Very-dark-violet .01rem .01rem .4rem .01rem;
+      border-radius: 1rem;
+    }
+
+    .img {
+      &-a {
+        margin-right: 7rem;
+        margin-bottom: 1rem;
+      }
+
+      &-b {
+        margin: 1rem 5rem;
+      }
+    }
+  }
+
+  .card-form {
+    display: flex;
+    margin: auto;
+
+    #form-details {
+      text-transform: uppercase;
+    }
+  }
+}
+

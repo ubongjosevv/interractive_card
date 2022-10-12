@@ -1,0 +1,7 @@
+@function set-color($Linear-gradient) {
+  @if(lightness($Linear-gradient) > 50) {
+    @return hsl(278, 94%, 30%);
+  } @else {
+    @return #fff;
+  }
+}
