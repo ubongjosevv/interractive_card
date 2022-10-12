@@ -14,26 +14,30 @@
       <img src="img/bg-main-desktop.png" class="bg-desktop" alt="">
       <div class="card-form">
         <form id="form-details">
-          <div>
+          <div id="component">
             <label for="Name">Cardholder Name</label>
             <input type="text" id="name" placeholder="Felicia Leire">
           </div>
-          <div>
+          <div id="component">
             <label for="Number">Card Number</label>
             <input type="text" id="number" placeholder="9591 6489 6389 101E">
           </div>
-          <div>
-            <label for="Date">Exp. Date (MM/YY)</label>
+          <div class="date-cvc-component">
             <div class="date">
-              <input type="text" id="month">
-              <input type="text" id="year">
-              <div class="cvc">
-                <label for="Cvc">Cvc</label>
-                <input type="text" id="cvc">
+              <label for="Date">Exp. date (mm/yy)</label>
+              <div>
+                <input type="text" placeholder="MM">
+                <input type="text" placeholder="YY">
+              </div>
+            </div>
+            <div class="cvc">
+              <label for="cvc">cvc</label>
+              <div>
+                <input type="text" placeholder="e.g 123">
               </div>
             </div>
           </div>
-          <input type="submit" value="Confirm">
+          <input type="submit" value="Confirm" >
         </form>
       </div>
       <div id="images">

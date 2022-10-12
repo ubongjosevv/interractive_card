@@ -43,8 +43,26 @@
     display: flex;
     margin: auto;
 
+    input {
+      padding: .4rem;
+      margin: .3rem;
+      border-radius: .4rem;
+      box-shadow: set-color($Linear-gradient) .01rem .01rem .2rem .01rem;
+    }
+
     #form-details {
       text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+
+      #component {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .date-cvc-component {
+        display: flex;
+      }
     }
   }
 }

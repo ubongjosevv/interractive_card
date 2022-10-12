@@ -26,5 +26,17 @@
 .container .card-form {
   display: flex;
   margin: auto; }
+  .container .card-form input {
+    padding: .4rem;
+    margin: .3rem;
+    border-radius: .4rem;
+    box-shadow: #600594 0.01rem 0.01rem 0.2rem 0.01rem; }
   .container .card-form #form-details {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column; }
+    .container .card-form #form-details #component {
+      display: flex;
+      flex-direction: column; }
+    .container .card-form #form-details .date-cvc-component {
+      display: flex; }
